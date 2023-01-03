@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv("TOKEN_BOT")
-IDCHANNEL = os.getenv("IDCHANNEL")
 
 
 intents = discord.Intents.default()
@@ -26,7 +25,7 @@ def obtener_almanax():
 
 @client.event
 async def on_message(message):
-    if message.channel.id == IDCHANNEL:
+    if message.channel.name == "dofus-chat":
         if message.content.startswith("!almanax"):
             almanax = obtener_almanax()
             print(almanax)
@@ -50,7 +49,5 @@ async def on_message(message):
                 await message.channel.send(embed=embed)
             else:
                 await message.channel.send("Ha habido un error al obtener la información del Almanax.")
-        else: 
-            print('nothing here')
 
 client.run(TOKEN)
