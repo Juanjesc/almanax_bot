@@ -1,6 +1,6 @@
 # Almanax Bot
 ![image](https://user-images.githubusercontent.com/89318618/211227748-eb0c8602-9951-47c3-861f-e260cc2b56ce.png) 
-<img src="https://user-images.githubusercontent.com/89318618/211230071-11125888-0768-46f9-a102-982c7e4ddaaf.png" width="200">
+<img src="https://user-images.githubusercontent.com/89318618/211230071-11125888-0768-46f9-a102-982c7e4ddaaf.png" width="150">
 ## What it is?
 
 This is a bot for the discord platform that takes a webhook URL, and every day at 00:00 queries an API and shows Almanax information in the correct channel of the discord server.
