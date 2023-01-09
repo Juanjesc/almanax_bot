@@ -1,6 +1,8 @@
 # Almanax Bot
-![image](https://user-images.githubusercontent.com/89318618/211227748-eb0c8602-9951-47c3-861f-e260cc2b56ce.png)
+![image](https://user-images.githubusercontent.com/89318618/211227748-eb0c8602-9951-47c3-861f-e260cc2b56ce.png) 
+<img src="https://user-images.githubusercontent.com/89318618/211230071-11125888-0768-46f9-a102-982c7e4ddaaf.png" width="200">
 ## What it is?
+
 This is a bot for the discord platform that takes a webhook URL, and every day at 00:00 queries an API and shows Almanax information in the correct channel of the discord server.
 
 To give some more context, the Almanax is a daily bonus that is changing in a video game called Dofus, game developed by Ankama Games, in-game there is a daily mission that asks us for certain items to complete it, both the bonus and the materials of each day are given as an answer by the bot.
